@@ -7,16 +7,29 @@
     <title>TEST Nathan</title>
 
   
-
-</head>
 </head>
 <body>
+	
+	 <nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="#historique">Historique</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="aquoi_cpu.html">À propos</a></li>
+        </ul>
+    </nav>
+	
     <h1>Surveillance des métriques système</h1>
     <p id="cpu">Chargement...</p>
     <p id="memory">Chargement...</p>
     <p id="disk">Chargement...</p>
     <p id="cores">Chargement...</p>
     <p id="threads">Chargement...</p>
+    
+    <h2>Historique des métriques</h2>
+	<div id="historique">
+		<ul id="historique-list"></ul>
+	</div>
 </body>
 <script src="metriques.js"></script>
 </html>
